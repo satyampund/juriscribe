@@ -1,0 +1,45 @@
+.user-info-container {
+  background: linear-gradient(
+    90deg,
+    rgba(202, 73, 99, 0.18) 0%,
+    rgba(173, 233, 74, 0.18) 100%
+  );
+  padding: 10px 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top-bar-app-name {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.ico-user {
+  height: 30px;
+  margin-right: 5px;
+}
+
+.ico-email {
+  height: 20px;
+  margin-right: 5px;
+}
+
+.ico-mobile {
+  height: 15px;
+  margin-left: 10px;
+  margin-right: 5px;
+}
